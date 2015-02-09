@@ -24,4 +24,6 @@ class ofApp : public ofBaseApp{
     ofFbo depthImageFbo;
     ofShader shader;
     ofImage tile, sis,depth;
+    ofImage tileOrigin;
+    bool bNoise;
 };
